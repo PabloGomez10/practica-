@@ -1,0 +1,80 @@
+/*.hola {
+    color: red;
+}
+@font-face {
+    font-family: fa;
+    src: url();
+/* } */
+
+
+body{
+    background-color: rgb(4, 4, 4);
+    font-family: sans-serif;
+    color: white;
+}
+
+.card{
+    background-color: coral;
+    text-align:center;
+    width: 30em;
+    margin: auto;
+    margin-top: 10em;
+    border: 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+
+}
+ .titulo{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.parrafo{
+    font-size:12px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 1px 6px;
+    background-color: lightcoral;
+    text-align: justify;
+    border: 1px rgb(140, 177, 85) solid;
+} 
+
+/* .img{
+    width: 15em;
+    margin-left: 40em;
+
+}
+a{
+    color: red;
+}
+
+.formulario{
+    background-color: red;
+    width: 18em;
+    padding: 10px;
+    border: 2px black solid;
+}
+
+.formG{
+    display: block;
+    margin: 5px;
+    width: 20em;
+    height: 2em;
+    border: 1px black solid;
+    border-radius: 1px;
+    text-decoration: none;
+}
+.formS{
+    margin-left: 6em;
+    width: 10em;
+    height: 2em;
+    border: 1px black solid;
+    border-radius: 1px;
+    text-decoration: none;
+} */
