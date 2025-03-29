@@ -6,7 +6,7 @@
     src: url();
 /* } */
 
-
+/* 
 body{
     background-color: rgb(4, 4, 4);
     font-family: sans-serif;
@@ -43,7 +43,7 @@ body{
     background-color: lightcoral;
     text-align: justify;
     border: 1px rgb(140, 177, 85) solid;
-} 
+}  */
 
 /* .img{
     width: 15em;
@@ -78,3 +78,16 @@ a{
     border-radius: 1px;
     text-decoration: none;
 } */
+
+body{
+    background-color: #e81c1c;
+    margin:0;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    background: linear-gradient(#000, transparent);
+    width: 100%;
+
+}
