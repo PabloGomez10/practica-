@@ -1,16 +1,19 @@
-/*.hola {
-    color: red;
-}
-@font-face {
+
+/* @font-face { 
     font-family: fa;
     src: url();
-/* } */
+} */
 
-/* 
-body{
+
+/* body{
     background-color: rgb(4, 4, 4);
     font-family: sans-serif;
     color: white;
+}
+
+.img{
+    width: 20em;
+    border-radius: 50%;
 }
 
 .card{
@@ -22,6 +25,7 @@ body{
     border: 1px solid;
     border-radius: 5px;
     box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
 
 }
@@ -44,7 +48,89 @@ body{
     text-align: justify;
     border: 1px rgb(140, 177, 85) solid;
 }  */
+/* ------------------------------------------- */
 
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .img {
+    width: 20em;
+    border-radius: 50%;
+    display: block;
+    margin: 1em auto; 
+  }
+  
+  .card {
+    font-family: sans-serif;
+    color: white;
+    background-color: coral;
+    text-align: center;
+    width: 30em;
+    margin: 10em auto; /* Centra la tarjeta y agrega margen superior */
+    border: 1px solid;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 35px #0007; /* Aplica la sombra */
+    padding: 1em; /* Agrega un poco de padding interno para mejor apariencia */
+  }
+  
+  .titulo {
+    padding-top: 10px;
+    font-size: 30px;
+    margin: 0; /* Asegura que no haya margenes predeterminados en el titulo */
+  }
+  
+  .subtitulo {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0; 
+  }
+  
+  .parrafo {
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 1em; /* Ajusta el padding para mejor legibilidad */
+    background-color: lightcoral;
+    text-align: justify;
+    border: 1px rgb(140, 177, 85) solid;
+    margin: 1em 0; /* Agrega margen superior/inferior para separarlo de otros elementos */
+  }
+
+  .subT{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 2px;    
+}
+.formB{
+    background-color: #ededed;
+    padding: 20px 0;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0px 0px 35px #0006;
+    margin-bottom: 50px;
+}
+.form_inpunt{
+    padding: 6px 20px;
+    /* margin: 20px 20px ; */
+}
+.formInp{
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.5em;
+    padding: 6px 12px;
+    border: none;
+    border-left: 3px solid #999;
+    box-shadow: 0px 0px 15px #0001 ;
+
+    /* padding-top:50px; */
+}
+
+/* ---------------------------------------------- */
 /* .img{
     width: 15em;
     margin-left: 40em;
@@ -79,15 +165,36 @@ a{
     text-decoration: none;
 } */
 
-body{
-    background-color: #e81c1c;
+/* body{
     margin:0;
+} */
+
+/* h1{
+    text-align: center;
 }
-.box{
-    width: 400px;
-    height: 400px;
-    margin: 0px;
-    background: linear-gradient(#000, transparent);
-    width: 100%;
+
+.box {
+    width: 280px;
+    background: #e2e2e2;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow:  0 0 40px 0 #0007;
+    padding: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #444;
+}
+
+img{
+    width: 250px;
 
 }
+
+p{
+    list-style: none;
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 14px;
+
+} */
